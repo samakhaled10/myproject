@@ -7,15 +7,7 @@ import useAllCategories from "../../CustomHooks/useAllCategories";
 
 export default function Categories() {
 
-// function getAllCategories() {
-//   return axios.get('https://ecommerce.routemisr.com/api/v1/categories');
-  
-// }
 
-// const {isError , isLoading , data} =useQuery({
-//   queryKey:'allCategories',
-//   queryFn:getAllCategories
-// });
 
 const { isError, isLoading, data } = useAllCategories();
 
