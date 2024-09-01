@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useQuery } from "react-query";
-import Loader from "../Loader/loader";
+import Loader from "../Loader/Loader";
 
 
 export default function Brands() {

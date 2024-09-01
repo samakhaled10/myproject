@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom"
-import Loader from "../Loader/loader";
+import Loader from "../Loader/Loader";
 import { useContext } from "react";
 import { cartContext } from "../../CartContext/CartContext";
 import toast from "react-hot-toast";

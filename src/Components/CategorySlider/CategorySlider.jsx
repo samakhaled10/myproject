@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import axios from "axios";
 import { useQuery } from "react-query";
 import { Circles } from "react-loader-spinner";
-import Loader from "../Loader/loader"; // Assuming you have a Loader component
+import Loader from "../Loader/Loader"; // Assuming you have a Loader component
 import useAllCategories from "../../CustomHooks/useAllCategories";
 
 export default function CategorySlider() {
