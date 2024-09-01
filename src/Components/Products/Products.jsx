@@ -494,7 +494,7 @@ import { useQuery } from "react-query";
 import { Link } from "react-router-dom";
 import { cartContext } from "../../CartContext/CartContext";
 import toast from "react-hot-toast";
-import Loader from "../Loader/loader";
+import Loader from "../Loader/Loader";
 import SimpleSlider from "../HomeSlider/HomeSlider";
 import imag1 from "../../assets/images/blog-img-1.jpeg";
 import imag2 from "../../assets/images/blog-img-2.jpeg";
