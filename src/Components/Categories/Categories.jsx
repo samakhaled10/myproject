@@ -1,5 +1,5 @@
 import axios from "axios";
-import Loader from "../Loader/loader";
+import Loader from "../Loader//Loader";
 import { useQuery } from "react-query";
 import useAllCategories from "../../CustomHooks/useAllCategories";
 
