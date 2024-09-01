@@ -2,7 +2,7 @@
   "name": "ecommerce",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://samakhaled10.github.io/finalproj",
+  "homepage": "https://samakhaled10.github.io/myproject",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
