@@ -17,6 +17,7 @@ import WishList from "./Components/WishList/WishList";
 import Payment from "./Components/Payment/Payment";
 
 
+const basename = '/myreact'; // Use your repository name here
 
 const router = createBrowserRouter([
   {path:'' , element:<Layout/> , children:[
@@ -64,7 +65,7 @@ const router = createBrowserRouter([
      </ProtectedRoute>
     },
   ]},
-]);
+], { basename });
 
 
 const reactQueryconfig = new QueryClient(); //class
